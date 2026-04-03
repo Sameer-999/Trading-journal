@@ -118,7 +118,11 @@
             align-items: center;
             gap: 10px;
         }
-
+        .logo img {
+            height: 40px;
+            width: auto;
+            border-radius: 6px; /* optional */
+        }
         .nav-links {
             display: flex;
             gap: 2rem;
@@ -352,9 +356,11 @@
 
     <header class="container">
         <nav>
-            <div class="logo">
-                <i class="fas fa-chart-line"></i> Trading Journal
+            <div class="TJ LOGO">
+                <img src="logo.jpg" alt="Trading Journal TJ LOGO" style="height: 40px;">
+                Trading Journal
             </div>
+                
             <ul class="nav-links">
                 <li><a href="#features">Features</a></li>
                 <li><a href="#pricing">Pricing</a></li>
@@ -511,7 +517,7 @@
     <footer>
         <div class="container">
             <div class="footer-content">
-                <div class="logo" style="font-size: 1.2rem;">
+                <div class="TJ LOGO" style="font-size: 1.2rem;">
                     <i class="fas fa-chart-line"></i> Trading Journal
                 </div>
                 <ul class="footer-links">
